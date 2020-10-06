@@ -633,7 +633,7 @@ export const mobile = () => `
                 dolorem cumque ullam perspiciatis omnis et asperiores dolores, consequatur, suscipit sint animi amet?
             </div>
             <div class="fd-tabs__panel" aria-expanded="true" id="AiWfz169" role="tabpanel">
-                <h4>This is an example of a summary line, without the expand/collapse feature.</h4>
+                <h2 class="fd-title fd-title--h6 fd-title--wrap"><b>This is an example of a summary line, without the expand/collapse feature.</b></h2>
                 <br />
                 Dolor sit Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius assumenda, quidem natus optio repudiandae deleniti 
                 in atque quis, sed cum asperiores minus rerum incidunt unde quod fuga amet ea reprehenderit.
@@ -677,7 +677,7 @@ add \`fd-dynamic-page__summarized-title\` in the \`fd-dynamic-page__summarized-t
 
 export const expandable = () => `
     <hr />
-    <h3>1:  Header with both collapse and pin buttons, expanded by default. </h3>
+    <h2 class="fd-title fd-title--h5"><b>1:  Header with both collapse and pin buttons, expanded by default. </b></h2>
     <hr />
     <br /><br />    
     <section class="fd-dynamic-page" aria-label="Dynamic Page Expandable Example">
@@ -745,7 +745,7 @@ export const expandable = () => `
     <br /><br />
 
     <hr />
-    <h3>2: Collapsed Header with both expand and pin buttons. </h3>
+    <h2 class="fd-title fd-title--h5"><b>2: Collapsed Header with both expand and pin buttons. </b></h2>
     <hr />
     <br /><br />
     <section class="fd-dynamic-page" aria-label="Dynamic Page Collapsed Example">
@@ -812,7 +812,7 @@ export const expandable = () => `
     <br /><br />
     <br /><br />
     <hr />
-    <h3>3: The header can only be expanded/collapsed, not pinned.</h3>
+    <h2 class="fd-title fd-title--h5"><b>3: The header can only be expanded/collapsed, not pinned.</b></h2>
     <hr />
     <br /><br />
 
