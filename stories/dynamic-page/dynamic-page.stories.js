@@ -3,6 +3,7 @@ import '../../dist/button.css';
 import '../../dist/breadcrumb.css';
 import '../../dist/tabs.css';
 import '../../dist/toolbar.css';
+import '../../dist/title.css';
 import '../../dist/dynamic-page.css';
 import './custom.scss';
 
@@ -86,7 +87,7 @@ export const desktop = () => `
                     </ul>
                 </nav>
                 <div class="fd-dynamic-page__title-container">
-                    <div class="fd-dynamic-page__title"> Balenciaga Tripple S Trainers </div>
+                    <h1 class="fd-title fd-dynamic-page__title"> Balenciaga Tripple S Trainers </h1>
                     <div class="fd-dynamic-page__title-content"> Some RANDOM things </div>
                     <div role="toolbar" aria-label="Product actions" class="fd-dynamic-page__toolbar fd-toolbar fd-toolbar--clear fd-toolbar--transparent">
                         <button class="fd-button fd-button--compact fd-button--positive">Accept</button>
@@ -242,7 +243,9 @@ export const tablet = () => `
                     </div>
                 </div>
                 <div class="fd-dynamic-page__title-container">
-                    <a href="#" class="fd-dynamic-page__title fd-dynamic-page__title--md fd-link" tabindex="0">Balenciaga Tripple S Trainers </a>
+                    <h1 class="fd-title fd-dynamic-page__title fd-dynamic-page__title--md">
+                        <a href="#" class="fd-dynamic-page__title fd-link" tabindex="0">Balenciaga Tripple S Trainers </a>
+                    </h1>
                     <div class="fd-dynamic-page__title-content"> Some RANDOM things </div>
                     <div role="toolbar" aria-label="Product actions" class="fd-dynamic-page__toolbar fd-toolbar fd-toolbar--clear fd-toolbar--transparent">
                         <button class="fd-button fd-button--compact fd-button--positive">Accept</button>
@@ -373,7 +376,7 @@ export const mobile = () => `
                     </div>
                 </div>
                 <div class="fd-dynamic-page__title-container">
-                    <div class="fd-dynamic-page__title"> Balenciaga Tripple S Trainers </div>
+                    <h1 class="fd-title fd-dynamic-page__title"> Balenciaga Tripple S Trainers </h1>
                         
                         <div role="toolbar" aria-label="Product actions" class="fd-dynamic-page__toolbar fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent">
                             <button class="fd-button fd-button--transparent" aria-label="More Header Content">
@@ -469,7 +472,7 @@ export const mobile = () => `
                     </div>
                 </div>
                 <div class="fd-dynamic-page__title-container">
-                    <div class="fd-dynamic-page__title fd-dynamic-page__title--collapsed"> Balenciaga Tripple S Trainers </div>
+                    <h1 class="fd-title fd-dynamic-page__title fd-dynamic-page__title--collapsed"> Balenciaga Tripple S Trainers </h1>
                         
                         <div role="toolbar" aria-label="Product actions" class="fd-dynamic-page__toolbar fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent">
                             <button class="fd-button fd-button--transparent" aria-label="More Header Content">
@@ -550,7 +553,7 @@ export const mobile = () => `
     <section class="fd-dynamic-page" aria-label="Dynamic Page Mobile Summary Line Example">
         <header class="fd-dynamic-page__header">
             <div class="fd-dynamic-page__summarized-title-area fd-dynamic-page__summarized-title-area--sm fd-dynamic-page__summarized-title-area--no-shadow" tabindex="0">
-                <div class="fd-dynamic-page__summarized-title fd-dynamic-page__summarized-title--collapsed"> Balenciaga Tripple S Trainers </div>
+                <h1 class="fd-dynamic-page__summarized-title fd-dynamic-page__summarized-title--collapsed"> Balenciaga Tripple S Trainers </h1>
                 <div role="toolbar" aria-label="Expand summary line action" class="fd-dynamic-page__toolbar fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent">
                         <button class="fd-button fd-button--transparent" aria-label="Expand">
                             <i class="sap-icon--slim-arrow-down"></i>
@@ -573,7 +576,7 @@ export const mobile = () => `
                     </div>
                 </div>
                 <div class="fd-dynamic-page__title-container">
-                    <div class="fd-dynamic-page__title fd-dynamic-page__title--collapsed"> Balenciaga Tripple S Trainers </div>
+                    <h1 class="fd-title fd-dynamic-page__title fd-dynamic-page__title--collapsed"> Balenciaga Tripple S Trainers </h1>
                         <div role="toolbar" aria-label="Product actions" class="fd-dynamic-page__toolbar fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent">
                             <button class="fd-button fd-button--transparent" aria-label="More Header Content">
                                 <i class="sap-icon--overflow"></i>
@@ -688,7 +691,7 @@ export const expandable = () => `
                     </ul>
                 </nav>
                 <div class="fd-dynamic-page__title-container">
-                    <div class="fd-dynamic-page__title"> Balenciaga Tripple S Trainers </div>
+                    <h1 class="fd-title fd-dynamic-page__title"> Balenciaga Tripple S Trainers </h1>
                     <div class="fd-dynamic-page__title-content"> Header with both collapse and pin buttons, expanded by default</div>
                     <div role="toolbar" aria-label="Product actions" class="fd-dynamic-page__toolbar fd-toolbar fd-toolbar--clear fd-toolbar--transparent">
                         <button class="fd-button fd-button--compact fd-button--positive">Accept</button>
@@ -756,7 +759,7 @@ export const expandable = () => `
                     </ul>
                 </nav>
                 <div class="fd-dynamic-page__title-container">
-                    <div class="fd-dynamic-page__title fd-dynamic-page__title--collapsed"> Balenciaga Tripple S Trainers Model 123456AB On Sale </div>
+                    <h1 class="fd-title fd-dynamic-page__title fd-dynamic-page__title--collapsed"> Balenciaga Tripple S Trainers Model 123456AB On Sale </h1>
                     <div class="fd-dynamic-page__title-content">Collapsed Header with both expand and pin buttons </div>
                     <div role="toolbar" aria-label="Product actions" class="fd-dynamic-page__toolbar fd-toolbar fd-toolbar--clear fd-toolbar--transparent">
                         <button class="fd-button fd-button--compact fd-button--positive">Accept</button>
@@ -824,7 +827,7 @@ export const expandable = () => `
                     </ul>
                 </nav>
                 <div class="fd-dynamic-page__title-container">
-                    <div class="fd-dynamic-page__title"> Balenciaga Tripple S Trainers </div>
+                    <h1 class="fd-title fd-dynamic-page__title"> Balenciaga Tripple S Trainers </h1>
                     <div class="fd-dynamic-page__title-content"> The header can only be expanded/collapsed, not pinned. </div>
                     <div role="toolbar" aria-label="Product actions" class="fd-dynamic-page__toolbar fd-toolbar fd-toolbar--clear fd-toolbar--transparent">
                         <button class="fd-button fd-button--compact fd-button--positive">Accept</button>
@@ -894,7 +897,7 @@ export const rtl = () => `
                         </ul>
                     </nav>
                     <div class="fd-dynamic-page__title-container">
-                        <div class="fd-dynamic-page__title"> Balenciaga Tripple S Trainers </div>
+                        <h1 class="fd-title fd-dynamic-page__title"> Balenciaga Tripple S Trainers </h1>
                         <div class="fd-dynamic-page__title-content"> Some RANDOM things </div>
                         <div role="toolbar" aria-label="Product actions" class="fd-dynamic-page__toolbar fd-toolbar fd-toolbar--clear fd-toolbar--transparent">
                             <button class="fd-button fd-button--compact fd-button--positive">Accept</button>
