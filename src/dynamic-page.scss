@@ -180,7 +180,8 @@ $block: #{$fd-namespace}-dynamic-page;
 
   .#{$fd-namespace}-toolbar.#{$block}__toolbar {
     padding: 0 0 0 1rem;
-    margin-left: auto;  // align toolbar to right in a flex layout
+    flex: 2;
+    justify-content: flex-end;
 
     @include fd-rtl() {
       padding: 0 1rem 0 0;
@@ -190,6 +191,10 @@ $block: #{$fd-namespace}-dynamic-page;
 
     &--actions {
       padding: 0;
+    }
+
+    &--sm {
+      flex: none;
     }
   }
 
