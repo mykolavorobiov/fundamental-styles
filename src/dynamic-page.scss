@@ -204,7 +204,6 @@ $block: #{$fd-namespace}-dynamic-page;
     @include fd-flex(column);
 
     justify-content: flex-end;
-    flex: 1;
 
     // tablet spec
     &--md {
@@ -213,12 +212,6 @@ $block: #{$fd-namespace}-dynamic-page;
       .#{$block}__toolbar-container {
         flex-flow: column wrap;
       }
-    }
-
-    // mobile spec
-    &--sm {
-      flex-direction: row;
-      justify-content: flex-end;
     }
   }
 
