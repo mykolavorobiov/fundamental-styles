@@ -57,7 +57,6 @@ const DocsPage = () => {
             let links = [].slice.call(document.getElementsByTagName('link'));
             links.forEach(item => {
                 if(item.attributes['data-theme-id']) {
-                    console.log(item)
                     item.parentNode.removeChild(item);
                 }
             });
