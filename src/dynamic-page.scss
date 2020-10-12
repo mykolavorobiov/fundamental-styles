@@ -162,15 +162,22 @@ $block: #{$fd-namespace}-dynamic-page;
     color: var(--sapGroup_TitleTextColor);
     font-size: var(--sapFontHeader3Size);
     padding: 0.3125rem 0 0 0;
-    flex: 1 0;
 
-    &--collapsed {
-      @include fd-ellipsis();
-    }
+    @include fd-ellipsis();
 
     // tablet spec
     &--md {
       padding: 0.6875rem 0 0 0;
+    }
+
+    // if fd-link is used as a child class
+    .#{$fd-namespace}-link {
+      @include fd-ellipsis();
+
+      padding: 0;
+      color: var(--sapGroup_TitleTextColor);
+      font-size: var(--sapFontHeader3Size);
+      max-width: 100%;
     }
   }
 
@@ -186,7 +193,6 @@ $block: #{$fd-namespace}-dynamic-page;
     @include fd-reset();
 
     padding: 0 0 0 1rem;
-    flex: 1 0;
 
     @include fd-rtl() {
       padding: 0 1rem 0 0;
@@ -219,8 +225,6 @@ $block: #{$fd-namespace}-dynamic-page;
   &__toolbar-container {
     @include fd-reset();
     @include fd-flex-vertical-center();
-
-    flex-flow: row wrap;
   }
 
   .#{$fd-namespace}-toolbar.#{$block}__toolbar {
@@ -236,7 +240,7 @@ $block: #{$fd-namespace}-dynamic-page;
     }
 
     &--sm {
-      flex: none;
+      justify-content: flex-start;
     }
 
     &--md {
@@ -248,6 +252,7 @@ $block: #{$fd-namespace}-dynamic-page;
   .#{$fd-namespace}-toolbar.#{$block}__toolbar-actions {
     padding: 0;
     order: 2;
+    justify-content: flex-end;
 
     &--md {
       order: 1;
@@ -293,15 +298,12 @@ $block: #{$fd-namespace}-dynamic-page;
 
   &__summarized-title {
     @include fd-reset();
+    @include fd-ellipsis();
 
     color: var(--sapGroup_TitleTextColor);
     font-size: var(--sapFontHeader5Size);
     padding: 0;
     line-height: 2rem;
-
-    &--collapsed {
-      @include fd-ellipsis();
-    }
   }
 
   &__collapsible-header {
